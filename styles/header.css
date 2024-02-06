@@ -10,7 +10,9 @@
     display: flex;
     flex-direction: row;
     flex: 1;
+    justify-content: center;
+}
+.logo-black-png{
     width: 376 px;
     height: 95.2px;
-    justify-content: center;
 }
