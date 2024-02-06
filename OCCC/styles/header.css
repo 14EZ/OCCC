@@ -1,0 +1,16 @@
+.header{
+    display: flex;
+    flex-direction: row;
+    height: 177px;
+    align-items: center;
+    background-color: #101010;
+    margin-bottom: 120px;
+}
+.logo-black{
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    width: 376 px;
+    height: 95.2px;
+    justify-content: center;
+}
