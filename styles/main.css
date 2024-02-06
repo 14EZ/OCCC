@@ -2,8 +2,11 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin-left: 150px;
+    flex-shrink: 0;
+    margin-left: 200px;
+    margin-top: 250px;
 }
+
 
 
 .tournaments-button{
@@ -27,6 +30,7 @@
     text-align: center;
     margin: 0px;
     align-items: center;
+    max-width: 378px;
 }
 
 .l{
@@ -34,6 +38,7 @@
     text-align: center;
     margin: 0px;
     align-items: center;
+    max-width: 237px;
 }
 
 .c{
@@ -41,6 +46,7 @@
     text-align: center;
     margin: 0px;
     align-items: center;
+    max-width: 237px;
 }
 
 .lessons-button{
@@ -71,4 +77,20 @@
     max-width: 279px;
     max-height: 84px;
     text-align: center;
+}
+
+.tournaments-button:hover{
+    background-color: rgba(214, 255, 0, 0.60);
+    color: #101010;
+    font-weight: 600;
+}
+.lessons-button:hover{
+    background-color: rgba(214, 255, 0, 0.60);
+    color: #101010;
+    font-weight: 600;
+}
+.contacts-button:hover{
+    background-color: rgba(214, 255, 0, 0.60);
+    color: #101010;
+    font-weight: 600;
 }

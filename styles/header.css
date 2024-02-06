@@ -4,7 +4,11 @@
     height: 177px;
     align-items: center;
     background-color: #101010;
-    margin-bottom: 120px;
+    margin-bottom: 60px;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
 }
 .logo-black{
     display: flex;
@@ -15,4 +19,37 @@
 .logo-black-png{
     width: 376 px;
     height: 95.2px;
+}
+.footer{
+    display: flex;
+    flex-direction: row;
+    height: 177px;
+    align-items: center;
+    background-color: #101010;
+    margin-top: 60px;
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+}
+.d{
+    color: #D6FF00;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 11px; /* 61.111% */
+    letter-spacing: -0.54px;
+}
+.p{
+    color: #D6FF00;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 11px; /* 61.111% */
+    letter-spacing: -0.54px;
+}
+.credits{
+    margin-left: 95px;
 }
