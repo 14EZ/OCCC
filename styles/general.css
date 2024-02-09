@@ -2,3 +2,13 @@
     margin: 0px;
     background-color: #101010;
 }
+
+.insta-icon{
+    margin-left: 60%
+}
+
+@media (max-width: 1284px) {
+    .buttons-container{
+        margin-left: 10%;
+    }
+}
