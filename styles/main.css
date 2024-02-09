@@ -15,6 +15,7 @@
 }
 
 .tournaments-button{
+    display: flex;
     color: #D6FF00;
     font-family: Montserrat;
     font-size: 50px;
@@ -24,36 +25,44 @@
     letter-spacing: -1.5px;
     border: 4px solid #D6FF00;
     margin-bottom: 20px;
-    max-width: 387px;
-    max-height: 84px;
+    width: 387px;
+    height: 84px;
     align-items: center;
+    justify-content: center;
 }
 
 .t{
+    display: flex;
+    flex-direction: column;
     padding: 11px;
     text-align: center;
     margin: 0px;
-    align-items: center;
-    max-width: 378px;
+    width: 367px;
+    justify-content: center;
 }
 
 .l{
+    display: flex;
+    flex-direction: column;
     padding: 11px;
     text-align: center;
     margin: 0px;
-    align-items: center;
-    max-width: 237px;
+    width: 237px;
+    justify-content: center;
 }
 
 .c{
+    display: flex;
+    flex-direction: column;
     padding: 11px;
     text-align: center;
     margin: 0px;
-    align-items: center;
-    max-width: 237px;
+    width: 237px;
+    justify-content: center;
 }
 
 .lessons-button{
+    display: flex;
     color: #D6FF00;
     font-family: Montserrat;
     font-size: 50px;
@@ -63,12 +72,13 @@
     letter-spacing: -1.5px;
     border: 4px solid #D6FF00;
     margin-bottom: 20px;
-    max-height: 84px;
-    max-width: 279px;
-    text-align: center;
+    height: 84px;
+    width: 279px;
+    align-items: center;
 }
 
 .contacts-button{
+    display: flex;
     color: #D6FF00;
     font-family: Montserrat;
     font-size: 50px;
@@ -78,9 +88,9 @@
     letter-spacing: -1.5px;
     border: 4px solid #D6FF00;
     margin-bottom: 20px;
-    max-width: 279px;
-    max-height: 84px;
-    text-align: center;
+    width: 279px;
+    height: 84px;
+    align-items: center;
 }
 
 .tournaments-button:hover{

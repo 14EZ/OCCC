@@ -4,3 +4,24 @@
     margin: 0px;
     background-color: #101010;
 }
+ @media all and (max-width: 800px) {
+    .tournaments-button{
+        width: 287px;
+        height: 84px;
+    }
+    .t{
+        width: 267px;
+    }
+    .lessons-button{
+        width: 179px;
+    }
+    .contacts-button{
+        width: 179px;
+    }
+    .l{
+        width: 137px;
+    }
+    .c{
+        width: 137px;
+    }
+ }
