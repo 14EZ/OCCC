@@ -1,7 +1,6 @@
 .header{
     display: flex;
     flex-direction: row;
-    height: 177px;
     align-items: center;
     background-color: #101010;
     
@@ -9,6 +8,7 @@
     top: 0px;
     left: 0px;
     right: 0px;
+    padding: 32px 0;
 }
 .logo-black{
     display: flex;
@@ -38,27 +38,20 @@
     line-height: 11px; /* 61.111% */
     letter-spacing: -0.54px;
 }
-.footer{
+.footer {
     display: flex;
     flex-direction: row;
-    height: 177px;
     align-items: center;
-    background-color: #101010;
     position: fixed;
-    top: 591px;
+    bottom: 0;
     left: 0px;
     right: 0px;
-}
-.insta{
-    display: flex;
-    flex-direction: row;
-    flex: 1;
+    padding: 20px;
     justify-content: center;
 }
-.link{
+
+.inst-link {
     text-decoration: none;
-}
-.i{
     color: #D6FF00;
     font-family: Montserrat;
     font-size: 18px;
@@ -66,8 +59,9 @@
     font-weight: 500;
     line-height: 11px; /* 61.111% */
     letter-spacing: -0.54px;
+    padding: 12px;
 }
-.i:hover{
+.inst-link:hover{
     background-color: rgba(214, 255, 0, 0.60);
     color: #101010;
     font-weight: 600;

@@ -1,20 +1,4 @@
-.buttons-container{
-    display: flex;
-    flex-direction: column;
-    height: 414px;
-    align-items: center;
-    background-color: #101010;
-}
-
-.ul-but-con{
-    display: flex;
-    flex-direction: column;
-    flex: 1;
-    justify-content: center;
-    margin-top: 243px;
-}
-
-.tournaments-button{
+.nav-button {
     display: flex;
     color: #D6FF00;
     font-family: Montserrat;
@@ -24,86 +8,13 @@
     line-height: 44px; /* 88% */
     letter-spacing: -1.5px;
     border: 4px solid #D6FF00;
-    margin-bottom: 20px;
     width: 387px;
     height: 84px;
     align-items: center;
     justify-content: center;
 }
 
-.t{
-    display: flex;
-    flex-direction: column;
-    padding: 11px;
-    text-align: center;
-    margin: 0px;
-    width: 367px;
-    justify-content: center;
-}
-
-.l{
-    display: flex;
-    flex-direction: column;
-    padding: 11px;
-    text-align: center;
-    margin: 0px;
-    width: 237px;
-    justify-content: center;
-}
-
-.c{
-    display: flex;
-    flex-direction: column;
-    padding: 11px;
-    text-align: center;
-    margin: 0px;
-    width: 247px;
-    justify-content: center;
-}
-
-.lessons-button{
-    display: flex;
-    color: #D6FF00;
-    font-family: Montserrat;
-    font-size: 50px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 44px; /* 88% */
-    letter-spacing: -1.5px;
-    border: 4px solid #D6FF00;
-    margin-bottom: 20px;
-    height: 84px;
-    width: 279px;
-    align-items: center;
-}
-
-.contacts-button{
-    display: flex;
-    color: #D6FF00;
-    font-family: Montserrat;
-    font-size: 50px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 44px; /* 88% */
-    letter-spacing: -1.5px;
-    border: 4px solid #D6FF00;
-    margin-bottom: 20px;
-    width: 287px;
-    height: 84px;
-    align-items: center;
-}
-
-.tournaments-button:hover{
-    background-color: rgba(214, 255, 0, 0.60);
-    color: #101010;
-    font-weight: 600;
-}
-.lessons-button:hover{
-    background-color: rgba(214, 255, 0, 0.60);
-    color: #101010;
-    font-weight: 600;
-}
-.contacts-button:hover{
+.nav-button:hover{
     background-color: rgba(214, 255, 0, 0.60);
     color: #101010;
     font-weight: 600;

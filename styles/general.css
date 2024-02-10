@@ -1,27 +1,35 @@
 .body{
-    display: grid;
-    grid-template-rows: 177px 414px 177px;
     margin: 0px;
+    color: white;
     background-color: #101010;
+
+    display: grid;
+    grid-template-areas: 
+        "header"
+        "page-container"
+        "footer";
+    grid-template-rows: auto;
+
+}
+
+#header {
+    grid-area: header;
+    height: fit-content;
+    height: 159px;
+  }
+#page-container {
+    grid-area: page-container;
+}
+#footer {
+    grid-area: footer;
+}
+
+.page-container {
+    width: 100%;
 }
  @media all and (max-width: 800px) {
-    .tournaments-button{
+    .nav-button{
         width: 287px;
         height: 84px;
-    }
-    .t{
-        width: 267px;
-    }
-    .lessons-button{
-        width: 179px;
-    }
-    .contacts-button{
-        width: 179px;
-    }
-    .l{
-        width: 137px;
-    }
-    .c{
-        width: 137px;
     }
  }
