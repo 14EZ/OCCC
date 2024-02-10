@@ -8,34 +8,38 @@
     <link rel="stylesheet" href="styles/header.css">
     <link rel="stylesheet" href="styles/main.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:wght@400;700;900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:wght@400;700;900&display=swap" rel="stylesheet">
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script type="module" src="/src/js/componentManager.js" ></script>
+    <!-- <script src="/src/js/router.js"></script> -->
 </head>
 <body class="body">
-    <div class="header">
-        <div class="logo-black">
-            <img class="logo-black-png" src="pics/occclogb.svg">
-        </div>
+    <my-header></my-header>
+
+    <div class="page-container p-3" id="page-container">
+        <nav class="flex flex-col">
+            <ul class="flex flex-col items-center">
+                <li class="mb-3">
+                    <a class="nav-button" href="/tournaments">
+                        Tournaments
+                    </a>
+                </li>
+                <li class="mb-3">
+                    <a class="nav-button">
+                        Lessons
+                    </a>
+                </li>
+                <li class="mb-3">
+                    <a class="nav-button">
+                        Contacts
+                    </a>
+                </li>
+            </ul>
+        </nav>
     </div>
-    <div class="buttons-container">
-        <div class="ul-but-con">
-            <div class="tournaments-button">
-                <p class="t">Tournaments</p>
-            </div>
-            <div class="lessons-button">
-                <p class="l">Lessons</p>
-            </div>
-            <div class="contacts-button">
-                <p class="c">Contacts</p>
-            </div>
-        </div>
-    </div>
-    <div class="footer">
-        <div class="insta">
-            <a class="link" href="https://www.instagram.com/onechess_chessclub/" target="_blank">
-                <p class="i">instagram</p>
-            </a>
-        </div>
-    </div>
+
+    <my-footer></my-footer>
 </body>
 </html>
